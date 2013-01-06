@@ -23,6 +23,7 @@ $ ->
       @box = $('<div>').css
         position: 'absolute'
         whiteSpace: 'pre-wrap'
+        wordWrap: 'break-word'
         overflow: 'hidden'
         display: 'none'
       @box.appendTo(document.body)
